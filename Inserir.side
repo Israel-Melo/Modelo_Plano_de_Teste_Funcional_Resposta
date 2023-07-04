@@ -1,0 +1,138 @@
+{
+  "id": "c3552d2b-d281-4ede-9b40-1e98a19c98d3",
+  "version": "2.0",
+  "name": "Inserir",
+  "url": "http://192.168.0.104:8080",
+  "tests": [{
+    "id": "a7ffe68b-39f6-45aa-a53b-4c31f94a7b0f",
+    "name": "Inserir",
+    "commands": [{
+      "id": "29cf57f9-d21d-4925-890b-4736e1cdb776",
+      "comment": "",
+      "command": "open",
+      "target": "http://192.168.0.104:8080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "896c703c-c068-41ea-a898-e619cdf1fd90",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "747x711",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47039ae8-d925-4a63-bfb4-433016b5ffe6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastro",
+      "targets": [
+        ["linkText=Cadastro", "linkText"],
+        ["css=span:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cadastrar')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b1c85a-da25-4884-b20c-ed3602df8436",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Cadastro",
+      "targets": [
+        ["linkText=Cadastro", "linkText"],
+        ["css=span:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cadastrar')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6968d68-0e88-4812-b810-e8227e51fece",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b21561-5ebb-4172-8fa5-ea0c56595d98",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Israel"
+    }, {
+      "id": "48553598-8ab5-4ba3-8b25-9932eca776ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f37348-a9e5-44f8-a5cf-737448a280d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rua dois"
+    }, {
+      "id": "e99b1eb6-b1cb-4121-a169-dac6f62f3820",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1e1dcf6-2083-429d-9fd5-5682ed1fe4a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=th:nth-child(4)",
+      "targets": [
+        ["css=th:nth-child(4)", "css:finder"],
+        ["xpath=//th[4]", "xpath:position"],
+        ["xpath=//th[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "70f0ec28-f8e6-48fd-b767-6a427c2aea98",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a7ffe68b-39f6-45aa-a53b-4c31f94a7b0f"]
+  }],
+  "urls": ["http://192.168.0.104:8080/"],
+  "plugins": []
+}

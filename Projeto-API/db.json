@@ -1,0 +1,29 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Felipe Santos",
+      "endereco": "Rua X"
+    },
+    {
+      "id": 5,
+      "nome": "Israel",
+      "endereco": "rua dois"
+    },
+    {
+      "id": 6,
+      "nome": "Israel",
+      "endereco": "rua dois"
+    },
+    {
+      "id": 7,
+      "nome": "Israel",
+      "endereco": "rua dois"
+    },
+    {
+      "id": 8,
+      "nome": "Israel Melo",
+      "endereco": "rua 2333"
+    }
+  ]
+}
